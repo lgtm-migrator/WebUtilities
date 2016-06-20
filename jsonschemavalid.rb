@@ -11,7 +11,7 @@ module ValidateJSONGem
                 end
  
                 def check?
-                        fileSchema = $fileS ? $fileS : 'Master.json' # Input File to Generate Master Schema
+                        fileSchema = $fileS ? $fileS : 'Master.json' # Input File to Generate Master Schema 
                         jsonResponseData = $jsonRD ? $jsonRD : 'SuccessResponse.json' # Dynamic Input from Response
                         # Generate schema
                         strpp = JSON::SchemaGenerator.generate fileSchema, File.read(fileSchema), {:schema_version => 'draft3'}
