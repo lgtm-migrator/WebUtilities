@@ -16,7 +16,7 @@
     "json2xls-xml": "0.0.14",
     "underscore": "1.13.1",
     "xls-to-json": "2.1.0",
-    "yamljs": "0.2.10"
+    "yamljs": "0.3.0"
   },
   "devDependencies": {
     "grunt": "1.4.1",
