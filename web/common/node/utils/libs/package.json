@@ -19,7 +19,7 @@
     "yamljs": "0.2.10"
   },
   "devDependencies": {
-    "grunt": "1.4.1",
+    "grunt": "1.5.3",
     "grunt-contrib-clean": "2.0.0",
     "grunt-jscrambler": "5.5.31",
     "grunt-replace": "0.11.0"
